@@ -26,7 +26,7 @@ kodeSewa, kodeMobil, tglSewa, tglKembali, harga
 'S016', 'C001', '7-Sept-2020', '8-Sept-2020', 400000
 }
 Pelanggan = {
-kodeSewa, nama, jenisIdentitas, alamat
+kodeSewa, nama, kartuIdentitas, alamat
 'S012', 'Dina', 'KTP', 'Jl. Jambu Merah 7'
 'S014', 'Jupri', 'KTP', 'Jl. Melati 5'
 'S015', 'Dono', 'SIM', 'Jl. Macan 19'
