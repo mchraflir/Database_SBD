@@ -1,0 +1,36 @@
+group: Penyewaan Mobil
+
+PemilikMobil = {
+namaPemilik, kodeMobil, warnaMobil, kartuIdentitas, alamat, noHp
+'Joko', 'C001', 'Putih', 'KTP', 'Jl. Kenanga 4', 081283949409
+'Lili', 'C002', 'Hitam', 'KTP', 'Jl. Mawar 4', 081282828282
+'Jojo', 'C001', 'Kuning', 'SIM', 'Jl. Rambutan 19', 083928498298
+'Santoso', 'C003', 'Silver', 'KTP', 'Jl. Apel 4', 0832717362782
+'Lusi', 'C004', 'Hitam', 'KTP', 'Jl. Kaktus 20', 082038172838
+'Dewa', 'C004', 'Pink', 'SIM', 'Jl. Matahari 4', 083627163726
+}
+
+NamaMobil = {
+kodeMobil, jenisMobil, jumlahMobil
+'C001', 'Avanza', 4
+'C002', 'Innova', 3
+'C003', 'Fortuner', 2
+'C004', 'Alphard', 2
+}
+KodeSewa = {
+kodeSewa, kodeMobil, tglSewa, tglKembali, harga
+'S012', 'C002', '2-Sept-2020', '3-Sept-2020', 600000
+'S013', 'C004', '4-Sept-2020', '5-Sept-2020', 1600000
+'S014', 'C003', '5-Sept-2020', '6-Sept-2020', 1000000
+'S015', 'C001', '7-Sept-2020', '9-Sept-2020', 800000
+'S016', 'C001', '7-Sept-2020', '8-Sept-2020', 400000
+}
+Pelanggan = {
+kodeSewa, nama, jenisIdentitas, alamat
+'S012', 'Dina', 'KTP', 'Jl. Jambu Merah 7'
+'S014', 'Jupri', 'KTP', 'Jl. Melati 5'
+'S015', 'Dono', 'SIM', 'Jl. Macan 19'
+'S016', 'Muklis', 'SIM', 'Jl. Terong 87'
+'S013', 'Caca', 'KTP', 'Jl. Pelita 34'
+}
+
